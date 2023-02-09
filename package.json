@@ -21,7 +21,7 @@
     "standard": "17.0.0"
   },
   "lint-staged": {
-    "*.{html,css,js,jsx,ts,tsx,json}": "prettier --write",
+    "*.{html,css,js,jsx,ts,tsx,json,md}": "prettier --write",
     "*.{js,jsx,ts,tsx}": "eslint --fix"
   }
 }
