@@ -9,6 +9,9 @@
     "lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install"
   },
+  "workspaces": [
+    "projects/**"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
